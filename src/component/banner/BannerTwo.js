@@ -10,8 +10,8 @@ const BannerTwo = () => {
                 <div className="row align-items-center">
                     <div className="col-lg-6">
                         <div className="banner-content">
-                        <h1 className="title">Turning potential 
-                        into performance</h1>
+                        <h1 className="title">Innovating Education One Step at a Time
+                        </h1>
                             <Link to={process.env.PUBLIC_URL + "/project-grid-one"} className="axil-btn btn-fill-white btn-large">View Showcase</Link>
                         </div>
                     </div>
