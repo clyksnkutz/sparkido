@@ -83,7 +83,7 @@ const FooterOne = ({parentClass}) => {
                                     <div className="footer-widget">
                                         <h6 className="widget-title">Pages</h6>
                                         <div className="footer-menu-link">
-                                            <ul className="list-unstyled">
+                                            <ul className="list-unstyled" style={{ fontSize: '8px' }}>
                                                 <li><Link to={process.env.PUBLIC_URL + "/contact"}>Contact</Link></li>
                                                 <li> <Link to={process.env.PUBLIC_URL + "/home-startup"}>Smart Panel</Link></li>
                                                 <li><Link to={process.env.PUBLIC_URL + "/service-details/design"}>ATL</Link></li>
