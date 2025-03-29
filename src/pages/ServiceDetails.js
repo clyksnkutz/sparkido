@@ -4,6 +4,7 @@ import FooterOne from '../common/footer/FooterOne';
 import HeaderOne from '../common/header/HeaderOne';
 import SEO from '../common/SEO';
 import CtaLayoutOne from '../component/cta/CtaLayoutOne';
+import PricingOne from '../component/pricing/PricingOne';
 import ProjectPropOne from '../component/project/itemProp/ProjectPropOne';
 import ProjectData from "../data/project/ProjectData.json";
 import ServiceData from "../data/service/ATLSolutions.json";
@@ -54,13 +55,27 @@ const ServiceDetails = () => {
                                     <img src={process.env.PUBLIC_URL + data.thumb} alt="Thumbnail" />
                                 </div>
                             </Tilty>
-                        <div className="content">
+                        {/* <div className="content">
                             <span className="subtitle">{data.subtitle}</span>
                             <h3 className="title">{data.title}</h3>
                             <p>{data.paragraph}</p>
+                        </div> */}
+                        <div className="content">
+                            <span className="subtitle">{data.subtitle}</span>
+                            <h3 className="title">{data.title}</h3>
+                            {data.id === 4 ? (
+                                <ul>
+                                    {data.paragraph.split('. ').map((sentence, index) => (
+                                        <li key={index}>{sentence.trim()}.</li>
+                                    ))}
+                                </ul>
+                            ) : (
+                                <p>{data.paragraph}</p>
+                            )}
                         </div>
                     </div>
                     ))}
+
                 </div>
                 <ul className="shape-group-17 list-unstyled">
                     <li className="shape shape-1"><img src={process.env.PUBLIC_URL + "/images/others/bubble-24.png"} alt="Bubble" /></li>
@@ -71,6 +86,21 @@ const ServiceDetails = () => {
                     <li className="shape shape-6"><img src={process.env.PUBLIC_URL + "/images/others/line-5.png"} alt="Line" /></li>
                 </ul>
             </div>
+            <div className="section section-padding">
+                        <div className="container">
+                            <SectionTitle 
+                                subtitle=""
+                                title="ATL packages."
+                                description="Choose the right package for you."
+                                textAlignment="mb-0"
+                                textColor=""
+                            />
+                            <PricingOne />
+                        </div>
+                        <ul className="shape-group-3 list-unstyled">
+                            <li className="shape shape-2"><img src={process.env.PUBLIC_URL + "/images/others/bubble-4.png"} alt="shape" /></li>
+                        </ul>
+                    </div>
             <div className="section section-padding">
                 <div className="container">
                     <SectionTitle

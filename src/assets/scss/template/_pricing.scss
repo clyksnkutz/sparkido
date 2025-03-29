@@ -17,7 +17,7 @@
     .pricing-header {
         text-align: center;
         .title {
-            color: var(--color-primary);
+            color: var(--color-black);
             font-weight: 400;
             font-size: 40px;
             margin-bottom: 8px;
@@ -75,7 +75,7 @@
         margin-top: 30px;
         li {
             padding: 12px 0;
-            color: var(--color-gray-2);
+            color: var(--color-primary);
             padding-left: 34px;
             position: relative;
             transition: var(--transition);
@@ -84,6 +84,16 @@
                 top: 14px;
                 left: 0;
             }
+        }
+        .line{
+            border-top: 2px solid rgba(227, 230, 233, 1);
+            padding-top: 50px;
+            margin-bottom: 30px;
+            font-family: var(--font-primary);
+            // display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: var(--transition);
         }
     }
     .star-icon {
@@ -129,6 +139,9 @@
         }
         .pricing-body {
             li {
+                color: var(--color-white);
+            }
+            p {
                 color: var(--color-white);
             }
         }

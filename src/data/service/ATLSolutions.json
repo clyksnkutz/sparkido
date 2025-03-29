@@ -9,29 +9,29 @@
             "para":"",
             "steps": [
                 {
-                    "thumb": "/images/others/process-1.png",
+                    "thumb": "/images/others/atal-lab.jpeg",
                     "subtitle": "",
                     "title": "Lab setup and equipment",
                     "paragraph": "Transform your space into a dynamic learning environment with our equipment including robotics kits, 3D printers, and essential tools. Each lab is custom-designed to match your school's unique requirements and student needs"
                 },
                 {
-                    "thumb": "/images/others/process-2.png",
-                    "subtitle": "Step Two",
-                    "title": "Prototype",
-                    "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+                    "thumb": "/images/others/curriculam.jpg",
+                    "subtitle": "",
+                    "title": "Curriculum Support",
+                    "paragraph": "Our expert team helps with engaging, age-appropriate curriculum that aligns with ATL objectives. From basic concepts to advanced projects, we support learning outcomes for students at all levels"
                 },
                 {
-                    "thumb": "/images/others/process-3.png",
-                    "subtitle": "Step Three",
-                    "title": "Test",
-                    "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+                    "thumb": "/images/others/faculty.jpg",
+                    "subtitle": "",
+                    "title": "Faculty Support",
+                    "paragraph": "We believe in empowering educators. Our training programs equip your faculty with the skills and confidence to guide students effectively through STEM activities and projects"
                 },
                 {
                     "id": 4,
-                    "thumb": "/images/others/process-4.png",
-                    "subtitle": "Step four",
-                    "title": "Build",
-                    "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+                    "thumb": "/images/others/support.png",
+                    "subtitle": "",
+                    "title": "End-to-End Support",
+                    "paragraph": "Application assistance for ATL grants from NITI AAYOG, Govt. of India. Lab design and setup. Complete equipment procurement. Curriculum intergration. Technical support. Faculty support."
                 }
             ]
         }

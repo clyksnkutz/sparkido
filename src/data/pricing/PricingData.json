@@ -1,47 +1,60 @@
 [
     {
-        "title": "Professional",
-        "subtitle": "A beautiful, simple website",
+        "title": "ATL Package 1",
+        "content1": "Tools for building and testing electronic circuits, assembling and programming robots, creating interconnected systems, and conducting data collection experiments.",
+        "content2": "Students can create products like an automated trash collector, smart light that adjusts based on room occupancy, a temperature sensor for monitoring room temperature, a motion-detecting security alarm, or a light-controlled fan for energy efficiency.",
         "yprice": "$199.99",
         "yduration": "/yearly",
         "mprice": "$19.99",
         "mduration": "/monthly",
-        "facility": [
-            "10 Pages Responsive Website",
-            "5 PPC Campaigns",
-            "10 SEO Keywords",
-            "5 Facebook Camplaigns",
-            "2 Video Camplaigns"
+        "points": [
+            "Electronics Development Kits",
+            "5 Robotics Kits",
+            "IoT Modules",
+            "Sensor Kits"
         ]
     },
     {
-        "title": "Standard",
-        "subtitle": "Small Team",
+        "title": "ATL Package 2",
+        "content1": "Tools for rapid prototyping, enabling quick design and testing of models.",
+        "content2": "Design and print custom keychains, functional phone stands, educational models, robotic parts, and prototype their own inventions, enhancing creativity and technical skills.",
         "yprice": "$219.99",
         "yduration": "/yearly",
         "mprice": "$29.99",
         "mduration": "/monthly",
-        "facility": [
-            "20 Pages Responsive Website",
-            "Unlimited PPC Campaigns",
-            "Unlimited SEO Keywords",
-            "Unlimited Facebook Camplaigns",
-            "Unlimited Video Camplaigns"
+        "points": [
+            "Rapid Prototyping Tools",
+            "3D Printer Kit",
+            "3D Printer Filament",
+            " 3D Printer Accessories"
         ]
     },
     {
-        "title": "Ultimate",
-        "subtitle": "Large Team",
+        "title": "ATL Package 3",
+        "content1": "Tools for hands-on learning in physics, testing, and measuring in engineering",
+        "content2": "Build models of basic physics principles, design and test a small wind mill to learn about renewable energy, LED blinking circuit, build simple circuits e.g. electrical bell circuit, to learn about electricity and conductivity.",
         "yprice": "$559.99",
         "yduration": "/yearly",
         "mprice": "$59.99",
         "mduration": "/monthly",
-        "facility": [
-            "50 Pages Responsive Website",
-            "Unlimited PPC Campaigns",
-            "Unlimited SEO Keywords",
-            "Unlimited Facebook Camplaigns",
-            "Unlimited Video Camplaigns"
+        "points": [
+            "Mechanical Tools",
+            "Electrical Tools",
+            "Measurement Instruments"
+        ]
+    },
+    {
+        "title": "ATL Package 4",
+        "content1": "Tools for ensuring power access, safety, and efficient electrical work.",
+        "content2": "Essential power supplies enabling them to conduct experiments, build projects, and learn safely, thereby enhancing their practical skills and fostering innovation.",
+        "yprice": "$559.99",
+        "yduration": "/yearly",
+        "mprice": "$59.99",
+        "mduration": "/monthly",
+        "points": [
+            " Power Supply Units",
+            "Extension Cords and Power Strips",
+            "Safety Equipment"
         ]
     }
 ]
