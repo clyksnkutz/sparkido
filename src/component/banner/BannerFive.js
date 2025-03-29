@@ -10,8 +10,8 @@ const BannerFive = () => {
                 <div className="row">
                     <div className="col-lg-6 col-xl-7">
                         <div className="banner-content">
-                            <h1 className="title">Turning potential 
-                                into performance</h1>
+                            <h1 className="title">Technology 
+                                &amp; design Studio</h1>
                             <div>
                                 <Link to={process.env.PUBLIC_URL + "/project-grid-one"} className="axil-btn btn-fill-white btn-large">View Showcase</Link>
                             </div>

@@ -1,14 +1,13 @@
 import React from 'react';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
-import { Link } from 'react-router-dom';
 
 
-const BannerOne = () => {
+const BannerSix = () => {
     return (
         <div className="banner banner-style-1">
             <div className="container">
                 <div className="row align-items-end align-items-xl-start">
-                    <div className="col-lg-6">
+                    {/* <div className="col-lg-6">
                         <div className="banner-content">
                             <AnimationOnScroll animateIn="fadeInUp" animateOnce={true} delay={100}>
                                 <h1 className="title">Innovating Education one step at a time</h1>
@@ -16,8 +15,8 @@ const BannerOne = () => {
                                 <Link to={process.env.PUBLIC_URL + "/contact"} className="axil-btn btn-fill-primary btn-large">Know More</Link>
                             </AnimationOnScroll>
                         </div>
-                    </div>
-                    <div className="col-lg-6">
+                    </div> */}
+                    <div className="col-lg-12">
                         <div className="banner-thumbnail">
                             <AnimationOnScroll animateIn="zoomIn" duration={2} delay={300} animateOnce={true}>
                                 <div className="large-thumb">
@@ -40,7 +39,7 @@ const BannerOne = () => {
                     </div>
                 </div>
             </div>
-            <ul className="list-unstyled shape-group-21">
+            {/* <ul className="list-unstyled shape-group-21">
                 <li className="shape shape-1">
                     <img src={process.env.PUBLIC_URL + "/images/others/bubble-39.png"} alt="Bubble" />
                 </li>
@@ -62,9 +61,9 @@ const BannerOne = () => {
                 <li className="shape shape-7">
                     <img src={process.env.PUBLIC_URL + "/images/others/bubble-41.png"} alt="Bubble" />
                 </li>
-            </ul>
+            </ul> */}
         </div>
     )
 }
 
-export default BannerOne;
+export default BannerSix;

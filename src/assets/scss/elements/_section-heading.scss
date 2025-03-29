@@ -12,6 +12,32 @@
     @media #{$md-layout} {
         margin-bottom: 50px;
     }
+    .subtitlered {
+        color: var(--color-primary);
+        font-weight: 500;
+        font-size: 40px;
+        font-family: var(--font-primary);
+        margin-bottom: 15px;
+        @media #{$md-layout} {
+            font-size: 38px;
+        }
+        @media #{$sm-layout} {
+            font-size: 32px;
+        }
+        span {
+            margin-right: 5px;
+            position: relative;
+            &:after {
+                content: ",";
+            }
+            &:last-child {
+                margin-right: 0;
+                &:after {
+                    display: none;
+                }
+            }
+        }
+    }
     .subtitle {
         color: var(--color-rose);
         font-weight: 500;

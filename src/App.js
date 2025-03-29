@@ -10,6 +10,7 @@ import CreativeAgency from './pages/CreativeAgency';
 import DigitalAgency from './pages/DigitalAgency';
 import HomeStartup from './pages/HomeStartup';
 import PersonalPortfolio from './pages/PersonalPortfolio';
+import Sparkiedo from './pages/Sparkiedo';
 
 // Blog Import
 import BlogArchive from './pages/Archive';
@@ -51,12 +52,13 @@ import Typography from './pages/Typography';
 import './assets/scss/app.scss';
 
 
+
 const App = () => {
   return (
     <Router>
 		<ScrollToTop>
 			<Routes>
-				<Route path={process.env.PUBLIC_URL + "/"} element={<CreativeAgency />}/>
+				<Route path={process.env.PUBLIC_URL + "/"} element={<Sparkiedo />}/>
 
 				<Route path={process.env.PUBLIC_URL + "/digital-agency"} element={<DigitalAgency />}/>
 				<Route path={process.env.PUBLIC_URL + "/creative-agency"} element={<CreativeAgency />}/>

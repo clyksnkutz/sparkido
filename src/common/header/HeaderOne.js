@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import Logo from '../../elements/logo/Logo';
 import Nav from '../../common/header/Nav';
-import OffcanvasMenu from './OffcanvasMenu';
-import StickyHeader from './StickyHeader';
+import Logo from '../../elements/logo/Logo';
 import SwitcherHeader from '../../elements/switcher/SwitcherHeader';
 import MobileMenu from './MobileMenu';
+import OffcanvasMenu from './OffcanvasMenu';
+import StickyHeader from './StickyHeader';
 
 
 const HeaderOne = () => {
@@ -40,9 +40,9 @@ const HeaderOne = () => {
                     <div className="container">
                         <div className="header-navbar">
                             <div className="header-logo">
-                                <Logo limage="/images/logo.svg"
-                                dimage="/images/logo-3.svg"
-                                simage="/images/logo-2.svg"
+                                <Logo limage="/images/sparkiedo-logo.svg"
+                                dimage="/images/sparkiedo-3.svg"
+                                simage="/images/sparkiedo-2.svg"
                                 />
                             </div>
                             <div className="header-main-nav">
