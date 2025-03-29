@@ -14,6 +14,7 @@ import AtalOne from '../component/testimonial/AtalOne';
 import TestimonialOne from '../component/testimonial/TestimonialOne';
 import SectionTitle from '../elements/section-title/SectionTitle';
 import ColorSwitcher from '../elements/switcher/ColorSwitcher';
+import SplashCta from '../component/cta/SplashCta';
 
 
 const Sparkiedo = () => {
@@ -47,10 +48,10 @@ const Sparkiedo = () => {
             </div> */}
             <SmartPanel />
             <AtalOne/>
-            <ProjectOne />
-            <CounterUpOne />
-            <TestimonialOne />
-            <div className="section bg-color-light section-padding">
+            {/* <ProjectOne /> */}
+            {/* <CounterUpOne /> */}
+            {/* <TestimonialOne /> */}
+            {/* <div className="section bg-color-light section-padding">
                 <div className="container">
                     <SectionTitle 
                         subtitle="Pricing Plan"
@@ -68,8 +69,8 @@ const Sparkiedo = () => {
                 </ul>
             </div>
             <BrandOne />
-            <BlogOne />
-            <CtaLayoutOne /> 
+            <BlogOne /> */}
+            <SplashCta /> 
         <FooterOne parentClass="" />
         </main>
         </>

@@ -4,7 +4,7 @@
         "fromtext": "Yelp",
         "from": "/images/icon/yelp-2.png",
         "title": "Application Assistance",
-        "description": "“ Guidance and support through the application process to ensure successful ATL establishment. ”",
+        "description": "Guidance and support through the application process to ensure successful ATL establishment.",
         "authorimg": "/images/testimonial/testimonial-1.png",
         "authorname": "Darrell Steward",
         "authordesig": "Executive Chairman"
@@ -13,7 +13,7 @@
         "fromtext": "Google",
         "from": "/images/icon/google-2.png",
         "title": "Lab Setup and Equipment",
-        "description": "“ Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. ”",
+        "description": "Custom-designed kits such as robotics, 3D printers, electronics, and more to foster practical learning.",
         "authorimg": "/images/testimonial/testimonial-2.png",
         "authorname": "Savannah Nguyen",
         "authordesig": "Executive Chairman"
@@ -21,8 +21,8 @@
     {
         "fromtext": "Yelp",
         "from": "/images/icon/yelp-2.png",
-        "title": "Application Assistance",
-        "description": "“ Guidance and support through the application process to ensure successful ATL establishment. ”",
+        "title": "Curriculum Support",
+        "description": "Age-appropriate curriculum enhances learning and encourages creativity in students.",
         "authorimg": "/images/testimonial/testimonial-1.png",
         "authorname": "Darrell Steward",
         "authordesig": "Executive Chairman"
@@ -30,8 +30,17 @@
     {
         "fromtext": "Facebook",
         "from": "/images/icon/fb-2.png",
-        "title": "Curriculum Support",
-        "description": "“ Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. ”",
+        "title": "Faculty Training",
+        "description": "Training for teachers to effectively guide students in using ATL resources.",
+        "authorimg": "/images/testimonial/testimonial-3.png",
+        "authorname": "Floyd Miles",
+        "authordesig": "Executive Chairman"
+    },
+    {
+        "fromtext": "Facebook",
+        "from": "/images/icon/fb-2.png",
+        "title": "End-to-End Assistance",
+        "description": "From ATL grants to lab setup, curriculum integration, and support.",
         "authorimg": "/images/testimonial/testimonial-3.png",
         "authorname": "Floyd Miles",
         "authordesig": "Executive Chairman"

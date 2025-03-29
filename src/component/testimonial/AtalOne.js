@@ -14,7 +14,7 @@ const AtalOne = () => {
                     textColor=""
                 />
                 <div className="row">
-                    <AtalPropOne colSize="col-lg-4" itemShow="4"/>
+                    <AtalPropOne colSize="col-lg-4" itemShow="5"/>
                 </div>
             </div>
             <ul className="shape-group-4 list-unstyled">
