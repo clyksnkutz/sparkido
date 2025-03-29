@@ -1,9 +1,7 @@
 import React from 'react';
+import { FaEnvelopeOpen } from "react-icons/fa";
 import { Link } from 'react-router-dom';
-import { FaFacebookF, FaPinterestP, FaLinkedin, FaInstagram, FaVimeoV, FaDribbble, FaBehance, FaEnvelopeOpen, FaTiktok } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
 import ServiceData from "../../data/service/ServiceMain.json";
-import { slugify } from '../../utils';
 
 const getServiceData = ServiceData;
 
@@ -74,8 +72,8 @@ const FooterOne = ({parentClass}) => {
                                             {/* <p>+91 94445 25095   smartkriya.edu@gmail.com     www.smartkriya.com</p> */}
                                             <p>
                                                 <span>+91 94445 25095</span> 
-                                                <a href="mailto:smartkriya.edu@gmail.com">smartkriya.edu@gmail.com</a>
-                                                <a href="https://www.smartkriya.com" target="_blank" rel="noopener noreferrer">www.smartkriya.com</a>
+                                                <a href="mailto:smartkriya.edu@gmail.com">sparkiedo.edu@gmail.com</a>
+                                                <a href="https://www.sparkiedo.com" target="_blank" rel="noopener noreferrer">www.sparkiedo.com</a>
                                             </p>
 
                                         </div>
