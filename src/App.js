@@ -5,18 +5,10 @@ import ScrollToTop from './component/scrollToTop/ScrollToTop';
 
 
 // Home Pages Import
-import CorporateAgency from './pages/CorporateAgency';
-import CreativeAgency from './pages/CreativeAgency';
-import DigitalAgency from './pages/DigitalAgency';
 import HomeStartup from './pages/HomeStartup';
-import PersonalPortfolio from './pages/PersonalPortfolio';
 import Sparkiedo from './pages/Sparkiedo';
 
 // Blog Import
-import BlogArchive from './pages/Archive';
-import BlogDetails from './pages/BlogDetails';
-import BlogGridView from './pages/BlogGrid';
-import BlogCategory from './pages/Category';
 
 // Service 
 import ServiceDetails from './pages/ServiceDetails';
@@ -59,18 +51,20 @@ const App = () => {
 		<ScrollToTop>
 			<Routes>
 				<Route path={process.env.PUBLIC_URL + "/"} element={<Sparkiedo />}/>
+				<Route path={process.env.PUBLIC_URL + "/home-startup"} element={<HomeStartup />}/>
 
-				<Route path={process.env.PUBLIC_URL + "/digital-agency"} element={<DigitalAgency />}/>
+
+				{/* <Route path={process.env.PUBLIC_URL + "/digital-agency"} element={<DigitalAgency />}/>
 				<Route path={process.env.PUBLIC_URL + "/creative-agency"} element={<CreativeAgency />}/>
 				<Route path={process.env.PUBLIC_URL + "/personal-portfolio"} element={<PersonalPortfolio />}/>
 				<Route path={process.env.PUBLIC_URL + "/home-startup"} element={<HomeStartup />}/>
-				<Route path={process.env.PUBLIC_URL + "/corporate-agency"} element={<CorporateAgency />}/>
+				<Route path={process.env.PUBLIC_URL + "/corporate-agency"} element={<CorporateAgency />}/> */}
 
 				{/* Blogs */}
-				<Route path={process.env.PUBLIC_URL + "/blog-grid/"} element={<BlogGridView />}/>
+				{/* <Route path={process.env.PUBLIC_URL + "/blog-grid/"} element={<BlogGridView />}/>
 				<Route path={process.env.PUBLIC_URL + "/category/:slug"} element={<BlogCategory />}/>
 				<Route path={process.env.PUBLIC_URL + "/archive/:slug"} element={<BlogArchive />}/>
-				<Route path={process.env.PUBLIC_URL + "/blog-details/:id"} element={<BlogDetails />}/>
+				<Route path={process.env.PUBLIC_URL + "/blog-details/:id"} element={<BlogDetails />}/> */}
 
 				{/* Service */}
 				<Route path={process.env.PUBLIC_URL + "/service-one/"} element={<ServiceOne />}/>
