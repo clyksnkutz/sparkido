@@ -15,7 +15,9 @@ const AtalItem = ({colSize, itemShow}) => {
 
                         <span className="social-media">
                             {/* <img src={process.env.PUBLIC_URL + data.from} alt="Yelp" /> */}
-                            <p>{data.description}</p>
+                            {/* <p>{data.description}</p> */}
+                            <p style={{ fontFamily: 'Poppins, sans-serif', fontSize: '18px'  }}>{data.description}</p>
+
                         </span>
                     </div>
                 </div>
