@@ -3,9 +3,8 @@ import Tilty from 'react-tilty';
 import FooterOne from '../common/footer/FooterOne';
 import HeaderOne from '../common/header/HeaderOne';
 import SEO from '../common/SEO';
-import CtaLayoutOne from '../component/cta/CtaLayoutOne';
+import AtlCta from '../component/cta/AtlCta';
 import PricingOne from '../component/pricing/PricingOne';
-import ProjectPropOne from '../component/project/itemProp/ProjectPropOne';
 import ProjectData from "../data/project/ProjectData.json";
 import ServiceData from "../data/service/ATLSolutions.json";
 import BcrumbBannerOne from '../elements/breadcrumb/BcrumbBannerOne';
@@ -38,7 +37,21 @@ const ServiceDetails = () => {
             mainThumb="/images/banner/atal.png"
             />
             {/* <AboutTwo /> */}
-           
+            <div className="row align-items-center">
+                <div className="col-lg-12">
+                    <div className="section-heading heading-center" style={{ marginTop: '100px' }}>
+                        <h3 className="" >Welcome to the future of STEM education</h3>
+                        <p>As a supporting partner for the Atal Innovation Mission, we're dedicated to elevating education with our state-of-the-art Atal Tinkering Labs which sparks curiosity through hands-on learning spaces where students develop critical thinking, creativity, and collaboration skills. We equip young minds to solve challenges and become tomorrow's innovators and entrepreneurs.</p>
+                    </div>
+                </div>
+                {/* <div className="col-lg-6">
+                    <div className="banner-thumbnail">
+                        <Tilty perspective={2000} reset={false}>
+                            <img src={process.env.PUBLIC_URL + mainThumb} alt="Illustration" />
+                        </Tilty>
+                    </div>
+                </div> */}
+            </div>
             <div className="section section-padding bg-color-light pb--70">
                 <SectionTitle 
                     subtitle={detailsService.process.sectionSub}
@@ -87,43 +100,43 @@ const ServiceDetails = () => {
                 </ul>
             </div>
             <div className="section section-padding">
-                        <div className="container">
-                            <SectionTitle 
-                                subtitle=""
-                                title="ATL packages."
-                                description="Choose the right package for you."
-                                textAlignment="mb-0"
-                                textColor=""
-                            />
-                            <PricingOne />
-                        </div>
-                        <ul className="shape-group-3 list-unstyled">
-                            <li className="shape shape-2"><img src={process.env.PUBLIC_URL + "/images/others/bubble-4.png"} alt="shape" /></li>
-                        </ul>
-                    </div>
+                <div className="container">
+                    <SectionTitle 
+                        subtitle=""
+                        title="ATL packages."
+                        description="Choose the right package for you."
+                        textAlignment="mb-0"
+                        textColor=""
+                    />
+                    <PricingOne />
+                </div>
+                <ul className="shape-group-3 list-unstyled">
+                    <li className="shape shape-2"><img src={process.env.PUBLIC_URL + "/images/others/bubble-4.png"} alt="shape" /></li>
+                </ul>
+            </div>
             <div className="section section-padding">
                 <div className="container">
                     <SectionTitle
-                        subtitle="Our Project"
-                        title="Featured Designs"
-                        description=""
+                        subtitle=""
+                        title="Government e-Marketplace (GeM) Verified"
+                        description="Access our complete range of ATL solutions through the official GeM portal. As a verified supplier, we ensure transparent and efficient procurement processes"
                         textAlignment=""
                         textColor=""
                     />
-                    <div className="row row-35">
-                        {getProjectData.slice(0, 2).map((data) => (
-                            <div className="col-md-6" key={data.id}>
-                                <ProjectPropOne projectStyle="" portfolio={data}/>
-                            </div>
-                        ))}
-                    </div>
+                    <SectionTitle
+                        subtitle=""
+                        title="Ready to Create Your Innovation Hub?"
+                        description="Contact us today to discuss how we can help establish a world-class Atal Tinkering Lab at your institution. Let's work together to inspire the next generation of innovators"
+                        textAlignment=""
+                        textColor=""
+                    />
                 </div>
                 <ul className="shape-group-16 list-unstyled">
                     <li className="shape shape-1"><img src={process.env.PUBLIC_URL + "/images/others/circle-2.png"} alt="circle" /></li>
                     <li className="shape shape-3"><img src={process.env.PUBLIC_URL + "/images/others/bubble-1.png"} alt="Line" /></li>
                 </ul>
             </div>
-            <CtaLayoutOne />
+            <AtlCta />
         <FooterOne parentClass="" />
         </main>
         </>

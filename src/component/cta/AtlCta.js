@@ -7,8 +7,8 @@ const SplashCta = () => {
             <div className="container">
                 <div className="call-to-action">
                 <div className="section-heading heading-light">
-                    <h2 className="title">Become the innovators and entrepreneurs of tomorrow.
-                    </h2>
+                    <h2 className="title">Ready to Create Your Innovation Hub?</h2>
+                    <p>Contact us today to discuss how we can help establish a world-class Atal Tinkering Lab at your institution. Let's work together to inspire the next generation of innovators</p>
                     <a target="_blank" rel="noopener noreferrer" href="" className="axil-btn btn-fill-white">Contact Us</a>
                 </div>
                 </div>
