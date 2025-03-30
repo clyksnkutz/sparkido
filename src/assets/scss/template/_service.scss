@@ -51,6 +51,8 @@
     .content {
         flex: 1;
         .title {
+            color: var(--color-primary);
+
             a {
                 color: var(--color-white);
                 &:hover {
@@ -130,7 +132,7 @@
                 overflow: hidden;
                 text-overflow: ellipsis;
                 // display: -webkit-box;
-                -webkit-line-clamp: 3;
+                // -webkit-line-clamp: 3;
                 -webkit-box-orient: vertical;
             }
             .more-btn {
