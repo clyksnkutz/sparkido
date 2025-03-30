@@ -2,127 +2,73 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import CaseStudyData from '../../data/casestudy/CaseStudyData.json';
 import Tilty from 'react-tilty';
-import CountUp from 'react-countup';
-import TrackVisibility from 'react-on-screen';
-import { slugify } from '../../utils';
 
-const allData = CaseStudyData;
+const allData = CaseStudyData.slice(0, 4);  // Only show 4 items
 
 const CaseStudyProp = () => {
-    
-    const CaseLeftThumb = ({data}) => {
+
+    const CaseLeftThumb = ({ data }) => {
         return (
-            <>
-            <div className="col-lg-6">
-                <div className={`case-study-featured-thumb thumb-${data.id}`}>
-                <Tilty perspective={2000}>
-                    <img src={process.env.PUBLIC_URL + data.thumb} alt="Case Study" />
-                </Tilty>
-                </div>
-            </div>
-            <div className="col-xl-5 col-lg-6 offset-xl-1">
-                <div className="case-study-featured">
-                <div className="section-heading heading-left">
-                    <span className="subtitle">{data.subtitle}</span>
-                    <h2 className="title">{data.title}</h2>
-                    <p>{data.excerpt}</p>
-                    <Link to={process.env.PUBLIC_URL + `/case-details/${slugify(data.title)}`} className="axil-btn btn-fill-primary btn-large">Read Case Study</Link>
-                </div>
-                <div className="case-study-counterup">
-                    <div className="single-counterup">
-                        <div className="count-number h3">
-                            <TrackVisibility once>
-                                {({isVisible}) => (
-                                    <span className="number count">
-                                        {isVisible ? <CountUp end={data.count_roi} duration={1} /> : null}
-                                    </span>
-                                )}  
-                            </TrackVisibility>
-                            <span className="symbol">%</span>
-                        </div>
-                        <span className="counter-title">ROI increase</span>
-                    </div>
-                    <div className="single-counterup">
-                        <div className="count-number h3">
-                            <TrackVisibility once>
-                                {({isVisible}) => (
-                                    <span className="number count">
-                                        {isVisible ? <CountUp end={data.count_visit} duration={1} /> : null}
-                                    </span>
-                                )}  
-                            </TrackVisibility>
-                            <span className="symbol">+</span>
-                        </div>
-                        <span className="counter-title">Monthly website visits</span>
+            <div className="row">
+                <div className="col-lg-6">
+                    <div className={`case-study-featured-thumb thumb-${data.id}`}>
+                        <Tilty perspective={2000}>
+                            <img src={process.env.PUBLIC_URL + data.thumb} alt="Case Study" />
+                        </Tilty>
                     </div>
                 </div>
+                <div className="col-xl-5 col-lg-6 offset-xl-1">
+                    <div className="case-study-featured">
+                        <div className="section-heading heading-left">
+                            <h3 className="title">{data.title}</h3>
+                            {data.points.map((point, index) => (
+                                <p key={index}><strong>{point.icon} {point.title}:</strong> {point.description}</p>
+                            ))}
+                        </div>
+                    </div>
                 </div>
             </div>
-            </>
-        )
-    }
-    
-    const CaseRightThumb = ({data}) => {
+        );
+    };
+
+    const CaseRightThumb = ({ data }) => {
         return (
-            <>
-            <div className="col-lg-6 offset-xl-1 order-lg-2">
-                <div className={`case-study-featured-thumb thumb-${data.id}`}>
-                <Tilty perspective={2000}>
-                    <img src={process.env.PUBLIC_URL + data.thumb} alt="Case Study" />
-                </Tilty>
-                </div>
-            </div>
-            <div className="col-lg-5 order-lg-1">
-                <div className="case-study-featured">
-                <div className="section-heading heading-left">
-                    <span className="subtitle">{data.subtitle}</span>
-                    <h2 className="title">{data.title}</h2>
-                    <p>{data.excerpt}</p>
-                    <Link to={process.env.PUBLIC_URL + `/case-details/${slugify(data.title)}`} className="axil-btn btn-fill-primary btn-large">Read Case Study</Link>
-                </div>
-                <div className="case-study-counterup">
-                    <div className="single-counterup">
-                        <div className="count-number h3">
-                            <TrackVisibility once>
-                                {({isVisible}) => (
-                                    <span className="number count">
-                                        {isVisible ? <CountUp end={data.count_roi} duration={1} /> : null}
-                                    </span>
-                                )}  
-                            </TrackVisibility>
-                            <span className="symbol">%</span>
-                        </div>
-                        <span className="counter-title">ROI increase</span>
-                    </div>
-                    <div className="single-counterup">
-                        <div className="count-number h3">
-                            <TrackVisibility once>
-                                {({isVisible}) => (
-                                    <span className="number count">
-                                        {isVisible ? <CountUp end={data.count_visit} duration={1} /> : null}
-                                    </span>
-                                )}  
-                            </TrackVisibility>
-                            <span className="symbol">+</span>
-                        </div>
-                        <span className="counter-title">Monthly website visits</span>
+            <div className="row">
+                <div className="col-lg-6 offset-xl-1 order-lg-2">
+                    <div className={`case-study-featured-thumb thumb-${data.id}`}>
+                        <Tilty perspective={2000}>
+                            <img src={process.env.PUBLIC_URL + data.thumb} alt="Case Study" />
+                        </Tilty>
                     </div>
                 </div>
+                <div className="col-lg-5 order-lg-1">
+                    <div className="case-study-featured">
+                        <div className="section-heading heading-left">
+                            <h3 className="title">{data.title}</h3>
+                            {data.points.map((point, index) => (
+                                <p key={index}><strong>{point.icon} {point.title}:</strong> {point.description}</p>
+                            ))}
+                        </div>
+                    </div>
                 </div>
             </div>
-            </>
-        )
-    }
+        );
+    };
 
     return (
         <>
-            {allData.map((data) => (
-                <div className="row" key={data.id}> 
-                    {(data.id % 2  === 0) ? <CaseRightThumb data={data}/> : <CaseLeftThumb data={data}/>}
+            {allData.map((data, index) => (
+                <div key={data.id}>
+                    {/* Alternate between Left and Right */}
+                    {index % 2 === 0 ? (
+                        <CaseLeftThumb data={data} />
+                    ) : (
+                        <CaseRightThumb data={data} />
+                    )}
                 </div>
             ))}
         </>
-    )
-}
+    );
+};
 
 export default CaseStudyProp;

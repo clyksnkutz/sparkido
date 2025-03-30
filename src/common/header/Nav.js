@@ -27,7 +27,7 @@ const Nav = () => {
                     </ul> */}
                 </li>
                 <li className="menu-item-has-children">
-                    <Link to="/home-startup">Smart Panel </Link>
+                    <Link to="/smart-panel">Smart Panel </Link>
                     {/* <ul className="axil-submenu">
                         <li><Link to={process.env.PUBLIC_URL + "/project-grid-one"}>Two Column</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/project-grid-two"}>Three Column</Link></li>

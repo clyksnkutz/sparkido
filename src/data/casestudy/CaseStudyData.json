@@ -1,35 +1,43 @@
+
 [
     {
         "id": 1,
-        "thumb": "/images/others/case-study-1.png",
-        "title": "Los Marineros",
-        "subtitle": "Featured Case Study",
-        "count_roi": "15",
-        "count_visit": "60",
-        "excerpt": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-        "details": "<p>From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.</p> <p>Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart.<p/>",
-        "solution": "<p>From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.</p> <p>Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart. together for the first time. We provide elegant solutions.</p>"
+        "title": "Interactive Real-Time Engagement",
+        "thumb": "/images/case1.jpg",
+        "points": [
+            { "icon": "✨", "title": "AI-Enabled Panels", "description": "Revolutionize learning with real-time AI-generated content." },
+            { "icon": "🤝", "title": "Multi-Touch Capability", "description": "Foster collaborative learning by allowing multiple students to interact with the content at the same time." },
+            { "icon": "🛠️", "title": "Versatile Teaching Tools", "description": "Adapt to every subject. Draw, write, highlight, and save your work instantly." }
+        ]
     },
     {
         "id": 2,
-        "thumb": "/images/others/case-study-2.png",
-        "title": "Whitehorse",
-        "subtitle": "Featured Case Study",
-        "count_roi": "15",
-        "count_visit": "60",
-        "excerpt": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-        "details": "<p>From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.</p> <p>Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart.<p/>",
-        "solution": "<p>From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.</p> <p>Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart. together for the first time. We provide elegant solutions.</p>"
+        "title": "Brilliant Clarity and Immersive Sound",
+        "thumb": "/images/case2.jpg",
+        "points": [
+            { "icon": "🖥️", "title": "4K Resolution", "description": "Deliver crystal-clear visuals with an Ultra HD 4K display." },
+            { "icon": "👓", "title": "Anti-Glare Technology", "description": "Minimize eye strain with flicker-free technology." },
+            { "icon": "🔊", "title": "Premium Audio", "description": "Immerse your class in rich, clear sound with a built-in soundbar." }
+        ]
     },
     {
         "id": 3,
-        "thumb": "/images/others/case-study-3.png",
-        "title": "Periscope Data",
-        "subtitle": "Featured Case Study",
-        "count_roi": "15",
-        "count_visit": "60",
-        "excerpt": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-        "details": "<p>From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.</p> <p>Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart.<p/>",
-        "solution": "<p>From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.</p> <p>Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart. together for the first time. We provide elegant solutions.</p>"
+        "title": "Performance Powerhouse",
+        "thumb": "/images/case3.jpg",
+        "points": [
+            { "icon": "⚡", "title": "Android 14 System", "description": "Experience fast, smooth performance with Android 14." },
+            { "icon": "🚀", "title": "Octa-core Processor", "description": "Effortlessly handles multitasking and demanding apps." },
+            { "icon": "☁️", "title": "Cloud Integration", "description": "Access lessons and materials from anywhere." }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Connectivity and Flexibility",
+        "thumb": "/images/case4.jpg",
+        "points": [
+            { "icon": "🔌", "title": "Versatile Connectivity", "description": "Effortlessly connect to a variety of devices." },
+            { "icon": "📹", "title": "Screen Recording & Sharing", "description": "Capture every lesson in stunning detail." },
+            { "icon": "💻", "title": "Optional OPS Integration", "description": "Unlock more power with an optional PC Slot." }
+        ]
     }
 ]

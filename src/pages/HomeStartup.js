@@ -9,6 +9,7 @@ import CtaLayoutOne from '../component/cta/CtaLayoutOne';
 import ProjectFour from '../component/project/ProjectFour';
 import TestimonialOne from '../component/testimonial/TestimonialOne';
 import ColorSwitcher from '../elements/switcher/ColorSwitcher';
+import FooterTwo from '../common/footer/FooterTwo';
 
 const HomeStartup = () => {
 
