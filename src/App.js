@@ -11,6 +11,7 @@ import DigitalAgency from './pages/DigitalAgency';
 import HomeStartup from './pages/HomeStartup';
 import PersonalPortfolio from './pages/PersonalPortfolio';
 import Sparkiedo from './pages/Sparkiedo';
+import SmartPanel from './pages/SmartPanel';
 
 // Blog Import
 import BlogArchive from './pages/Archive';
@@ -64,6 +65,7 @@ const App = () => {
 				<Route path={process.env.PUBLIC_URL + "/creative-agency"} element={<CreativeAgency />}/>
 				<Route path={process.env.PUBLIC_URL + "/personal-portfolio"} element={<PersonalPortfolio />}/>
 				<Route path={process.env.PUBLIC_URL + "/home-startup"} element={<HomeStartup />}/>
+				<Route path={process.env.PUBLIC_URL + "/smart-panel"} element={<SmartPanel />}/>
 				<Route path={process.env.PUBLIC_URL + "/corporate-agency"} element={<CorporateAgency />}/>
 
 				{/* Blogs */}
@@ -76,7 +78,7 @@ const App = () => {
 				<Route path={process.env.PUBLIC_URL + "/service-one/"} element={<ServiceOne />}/>
 				<Route path={process.env.PUBLIC_URL + "/service-two/"} element={<ServiceTwo />}/>
 				<Route path={process.env.PUBLIC_URL + "/service-details/:slug"} element={<ServiceDetails />}/>
-
+		
 				{/* Project  */}
 				<Route path={process.env.PUBLIC_URL + "/project-grid-one"} element={<ProjectGridOne />}/>
 				<Route path={process.env.PUBLIC_URL + "/project-grid-two"} element={<ProjectGridTwo />}/>
