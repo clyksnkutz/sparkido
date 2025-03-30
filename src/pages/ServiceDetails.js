@@ -26,7 +26,7 @@ const ServiceDetails = () => {
     
     return (
         <>
-        <SEO title="Service Details" />
+        <SEO title="ATL" />
         <ColorSwitcher />
         <main className="main-wrapper">
             <HeaderOne />
