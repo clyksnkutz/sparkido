@@ -9,6 +9,8 @@
         margin-bottom: 50px;
         p {
             width: 100%;
+        font-size: var(--font-body-1);
+
         }
     }
     .accordion-item {
@@ -34,6 +36,7 @@
         }
         .accordion-body {
             padding: 0 0 18px 0;
+            font-size: var(--font-body-1);
         }   
     }
     .why-choose-thumb {

@@ -11,12 +11,13 @@ const AtalItem = ({colSize, itemShow}) => {
             {allData.slice(0, itemShow).map((data, index) => (
                 <div className={`${colSize}`} key={index}>
                     <div className="testimonial-grid">
-                    <p style={{ fontWeight: 'bold', color: 'black' }}>{data.title}</p>
+                    <p className='atal-title'>{data.title}</p>
 
                         <span className="social-media">
                             {/* <img src={process.env.PUBLIC_URL + data.from} alt="Yelp" /> */}
                             {/* <p>{data.description}</p> */}
-                            <p style={{ fontFamily: 'Poppins, sans-serif', fontSize: '18px'  }}>{data.description}</p>
+                            <p >{data.description}</p>
+                            {/* <p style={{ fontFamily: 'Poppins, sans-serif', fontSize: '18px'  }}>{data.description}</p> */}
 
                         </span>
                     </div>

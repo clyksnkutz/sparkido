@@ -51,13 +51,16 @@
     .content {
         flex: 1;
         .title {
-            color: var(--color-primary);
-
+            // color: var(--color-secondary);
+            color: var(--color-body);
+            // &:hover {
+            //     color: var(--color-primary);
+            // }
             a {
                 color: var(--color-white);
-                &:hover {
-                    color: var(--color-primary);
-                }
+                // &:hover {
+                //     color: var(--color-primary);
+                // }
             }
         }
         p {
@@ -120,14 +123,15 @@
             .title {
                 a {
                     color: var(--color-text-dark);
-                    &:hover {
-                        color: var(--color-primary);
-                    }
+                    // &:hover {
+                    //     color: var(--color-primary);
+                    // }
 
                 }
             }
             p {
                 color: var(--color-body);
+                font-size: 18px;
                 opacity: 1;
                 overflow: hidden;
                 text-overflow: ellipsis;
@@ -144,6 +148,9 @@
         }
         &:hover, &.active {
             background-color: var(--color-light);
+            .title{
+                color:var(--color-primary)
+            }
             .content {
                 .more-btn {
                     color: var(--color-primary);
