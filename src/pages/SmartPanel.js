@@ -7,6 +7,8 @@ import CtaLayoutOne from '../component/cta/CtaLayoutOne';
 import ColorSwitcher from '../elements/switcher/ColorSwitcher';
 import CaseStudyProp from '../component/casestudy/CaseStudyProp';
 import DisplayTouchTech from '../component/about/DisplayTouchTech';
+import ServiceTwo from './ServiceTwo';
+import AboutThree from '../component/about/AboutThree';
 // import SmartPanel from '../component/about/SmartPanel';
 
 
@@ -22,7 +24,8 @@ const SmartPanel = () => {
                 <HeaderOne />
                 <BcrumbBannerOne 
                 title="Student Interaction and Engagement "
-                paragraph ="We design and develop web and mobile applications for our clients worldwide."
+                paragraph ="Our state-of-the-art interactive panels are designed to transform any classroom into
+                            an engaging, interactive learning environment that improves student interaction and engagement"
                 styleClass="thumbnail-3"
                 mainThumb="/images/smartpanel/students.png"
                 />
@@ -33,6 +36,7 @@ const SmartPanel = () => {
                 </div>
                 {/* <SmartPanel /> */}
                 <DisplayTouchTech/>
+                <AboutThree />
                 <CtaLayoutOne />
                 <FooterOne parentClass="" />
             </main>

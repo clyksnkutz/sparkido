@@ -33,7 +33,7 @@
     {
         "id": 4,
         "title": "Connectivity and Flexibility",
-        "thumb": "/images/smartpanel/connection.jpg",
+        "thumb": "/images/smartpanel/connection.jpg ",
         "points": [
             { "icon": "🔌", "title": "Versatile Connectivity", "description": "Effortlessly connect to a variety of devices." },
             { "icon": "📹", "title": "Screen Recording & Sharing", "description": "Capture every lesson in stunning detail." },

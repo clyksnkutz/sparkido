@@ -1,67 +1,77 @@
 import React from 'react';
 import SectionTitle from '../../elements/section-title/SectionTitle';
+import { FaCheckCircle, FaGraduationCap, FaWrench, FaShieldAlt } from 'react-icons/fa';
 
 const Datas = [
     {
         id: 1,
-        title: "Exceed clients’ and colleagues’ expectations",
-        para: "Ut id orci ultricies, gravida arcu ac, elementum eros. Curabitur tortor ipsum, imperdiet eget odio ac, faucibus ultricies nisl. Maecenas scelerisque dignissim elit."
+        icon: <FaCheckCircle style={{ fontSize: '40px', color: '#4CAF50' }} />,
+        title: "Free Installation",
+        para: "Hassle-free setup by our expert team."
     },
     {
         id: 2,
-        title: "Take ownership and question the status quo in a constructive manner",
-        para: "Nulla facilisi. Vestibulum vel urna eget magna condimentum faucibus. Sed arcu mi, semper sed suscipit vel, rhoncus vel justo."
+        icon: <FaGraduationCap style={{ fontSize: '40px', color: '#FF9800' }} />,
+        title: "Teacher Training Support",
+        para: "Comprehensive guidance for smooth usage."
     },
     {
         id: 3,
-        title: "Be brave, curious and experiment – learn from all successes and failures",
-        para: "Quisque aliquet quis est in faucibus. Aenean eget lorem ac risus placerat convallis eget a eros. Suspendisse dignissim ultrices tellus, id placerat mauris lacinia a."
+        icon: <FaWrench style={{ fontSize: '40px', color: '#03A9F4' }} />,
+        title: "Technical Support",
+        para: "Reliable assistance when you need it."
     },
     {
         id: 4,
-        title: "Act in a way that makes all of us proud",
-        para: "Proin dignissim facilisis tortor a mattis. Morbi non maximus nunc, ut mattis tellus. In hac habitasse platea dictumst. Mauris viverra enim tellus, vel ultrices dolor aliquam non."
-    },
-    {
-        id: 5,
-        title: "Build an inclusive, transparent and socially responsible culture",
-        para: "Maecenas eros sapien, egestas at elit nec, eleifend sagittis orci."
+        icon: <FaShieldAlt style={{ fontSize: '40px', color: '#9C27B0' }} />,
+        title: "3 Years Onsite Warranty",
+        para: "Peace of mind with guaranteed service."
     }
-]
-
-
-
+];
 
 const AboutThree = () => {
     return (
-        <div className="section section-padding bg-color-dark pb--80 pb_lg--40 pb_md--20">
+        <div className="section section-padding bg-color-light pb--70">
             <div className="container">
-                <SectionTitle 
-                    subtitle="Our Valus"
-                    title="Why should you work with us?"
-                    description="Nulla facilisi. Nullam in magna id dolor blandit rutrum eget vulputate augue sed eu leo eget risus imperdiet."
-                    textAlignment="heading-left heading-light-left mb--100"
+                {/* <SectionTitle 
+                    subtitle="Our Values"
+                    title="Every Sparkiedo smart panel comes with:"
+                    textAlignment="heading-left heading-light-left "
                     textColor=""
-                />
+                /> */}
+
+                <div className="section-heading heading-center">
+                    <h3 className="subtitlered">Every Sparkiedo smart panel comes with</h3>
+                </div>
 
                 <div className="row">
                     {Datas.map((data) => (
-                        <div className="col-lg-4" key={data.id}>
-                            <div className="about-quality">
-                                <h3 className="sl-number">{data.id}</h3>
-                                <h5 className="title">{data.title}</h5>
-                                <p>{data.para}</p>
+                        <div className="col-lg-3 col-md-6 mb-4" key={data.id}>
+                            <div className="about-quality text-center p-4" 
+                                style={{
+                                    borderRadius: '12px',
+                                    boxShadow: '0 8px 24px rgba(0, 0, 0, 0.1)',
+                                    transition: 'transform 0.3s',
+                                    background: '#f9f9f9',
+                                    minHeight: '300px',
+                                    display: 'flex',
+                                    flexDirection: 'column',
+                                    justifyContent: 'center',
+                                    alignItems: 'center'
+                                }}
+                                onMouseEnter={(e) => e.currentTarget.style.transform = 'translateY(-10px)'}
+                                onMouseLeave={(e) => e.currentTarget.style.transform = 'translateY(0)'}
+                            >
+                                <div>{data.icon}</div>
+                                <h5 className="title mt-3" style={{ fontSize: '22px', fontWeight: '600', color: '#333' }}>
+                                    {data.title}
+                                </h5>
+                                <p style={{ color: '#555', fontSize: '16px' }}>{data.para}</p>
                             </div>
                         </div>
                     ))}
-
                 </div>
             </div>
-            <ul className="list-unstyled shape-group-10">
-                <li className="shape shape-1"><img src={process.env.PUBLIC_URL + "/images/others/circle-1.png"} alt="Circle" /></li>
-                <li className="shape shape-2"><img src={process.env.PUBLIC_URL + "/images/others/line-3.png"} alt="Circle" /></li>
-                <li className="shape shape-3"><img src={process.env.PUBLIC_URL + "/images/others/bubble-5.png"} alt="Circle" /></li>
-            </ul>
         </div>
     )
 }
