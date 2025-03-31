@@ -26,7 +26,7 @@ const ServiceDetails = () => {
     
     return (
         <>
-        <SEO title="Service Details" />
+        <SEO title="ATL" />
         <ColorSwitcher />
         <main className="main-wrapper">
             <HeaderOne />
@@ -40,21 +40,14 @@ const ServiceDetails = () => {
             <div className="row align-items-center">
                 <div className="col-lg-12">
                     <div className="section-heading heading-center" style={{ marginTop: '100px' }}>
-                        <h3 className="" >Welcome to the future of STEM education</h3>
+                        <h3 className="subtitlered" >Welcome to the future of STEM education</h3>
                         <p>As a supporting partner for the Atal Innovation Mission, we're dedicated to elevating education with our state-of-the-art Atal Tinkering Labs which sparks curiosity through hands-on learning spaces where students develop critical thinking, creativity, and collaboration skills. We equip young minds to solve challenges and become tomorrow's innovators and entrepreneurs.</p>
                     </div>
                 </div>
-                {/* <div className="col-lg-6">
-                    <div className="banner-thumbnail">
-                        <Tilty perspective={2000} reset={false}>
-                            <img src={process.env.PUBLIC_URL + mainThumb} alt="Illustration" />
-                        </Tilty>
-                    </div>
-                </div> */}
             </div>
             <div className="section section-padding bg-color-light pb--70">
                 <SectionTitle 
-                    subtitle={detailsService.process.sectionSub}
+                    // subtitle={detailsService.process.sectionSub}
                     title={detailsService.process.sectionTitle}
                     description={detailsService.process.para}
                     textAlignment=""
@@ -120,13 +113,6 @@ const ServiceDetails = () => {
                         subtitle=""
                         title="Government e-Marketplace (GeM) Verified"
                         description="Access our complete range of ATL solutions through the official GeM portal. As a verified supplier, we ensure transparent and efficient procurement processes"
-                        textAlignment=""
-                        textColor=""
-                    />
-                    <SectionTitle
-                        subtitle=""
-                        title="Ready to Create Your Innovation Hub?"
-                        description="Contact us today to discuss how we can help establish a world-class Atal Tinkering Lab at your institution. Let's work together to inspire the next generation of innovators"
                         textAlignment=""
                         textColor=""
                     />

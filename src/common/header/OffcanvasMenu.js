@@ -1,8 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import Offcanvas from 'react-bootstrap/Offcanvas'
-import { FaFacebookF, FaLinkedinIn, FaBehance, FaPhone, FaFax } from "react-icons/fa";
+import Offcanvas from 'react-bootstrap/Offcanvas';
+import { FaBehance, FaFacebookF, FaFax, FaLinkedinIn, FaPhone } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 
 
 const OffcanvasMenu = ({offcanvasShow, offcanvasHide}) => {

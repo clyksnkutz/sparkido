@@ -46,8 +46,18 @@
             }
         }
         p {
-            color: #737387;
-            width: 60%;
+            color: #050505;
+            font-size: var(--font-body-1);
+            width: 70%;
+            margin-bottom: 0;
+            @media #{$smlg-device} {
+                width: 100%;
+            }
+        }
+        li {
+            color: #050505;
+            font-size: var(--font-body-1);
+            width: 70%;
             margin-bottom: 0;
             @media #{$smlg-device} {
                 width: 100%;
@@ -58,7 +68,7 @@
         flex-direction: row-reverse;
         .content {
             margin: 0 60px 0 0;
-            padding-left: 300px;
+            padding-left: 200px;
             @media #{$smlg-device} {
                 padding-left: 0;
             }

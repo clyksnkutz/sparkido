@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Nav from '../../common/header/Nav';
 import Logo from '../../elements/logo/Logo';
-import SwitcherHeader from '../../elements/switcher/SwitcherHeader';
 import MobileMenu from './MobileMenu';
 import OffcanvasMenu from './OffcanvasMenu';
 import StickyHeader from './StickyHeader';
@@ -48,7 +47,7 @@ const HeaderOne = () => {
                             <div className="header-main-nav">
                                 <Nav />
                             </div>
-                            <div className="header-action">
+                            {/* <div className="header-action">
                                 <ul className="list-unstyled">
                                     <li className="sidemenu-btn d-lg-block d-none">
                                         <button className="btn-wrap" onClick={OffcanvasHandleShow}>
@@ -68,7 +67,7 @@ const HeaderOne = () => {
                                         <SwitcherHeader />
                                     </li>
                                 </ul>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

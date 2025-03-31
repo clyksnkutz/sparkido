@@ -9,11 +9,11 @@ const SmartPanel = () => {
         // <div className="section-padding">
         <div className="section section-padding bg-color-light pb--70">
             <div className="container">
-            <div className="section-heading heading-center">
-                                {/* <span className="subtitle">Our Products</span> */}
-                                <h3 className="subtitlered">Sparkiedo Smart Panels</h3>
-                                <p>Transform your classroom with interactive, AI-powered technology</p>
-                            </div>
+                <div className="section-heading heading-center">
+                    {/* <span className="subtitle">Our Products</span> */}
+                    <h3 className="subtitlered">Sparkiedo Smart Panels</h3>
+                    <p>Transform your classroom with interactive, AI-powered technology</p>
+                </div>
             <div className="row">
                     <div className="col-lg-6">
                         <div className="why-choose-us">

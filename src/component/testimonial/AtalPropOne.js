@@ -11,7 +11,7 @@ const AtalItem = ({colSize, itemShow}) => {
             {allData.slice(0, itemShow).map((data, index) => (
                 <div className={`${colSize}`} key={index}>
                     <div className="testimonial-grid">
-                    <p style={{ fontWeight: 'bold', color: '#d63636' }}>{data.title}</p>
+                    <p style={{ fontWeight: 'bold', color: 'black' }}>{data.title}</p>
 
                         <span className="social-media">
                             {/* <img src={process.env.PUBLIC_URL + data.from} alt="Yelp" /> */}

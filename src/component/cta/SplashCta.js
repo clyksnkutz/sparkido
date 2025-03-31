@@ -7,8 +7,9 @@ const SplashCta = () => {
             <div className="container">
                 <div className="call-to-action">
                 <div className="section-heading heading-light">
-                    <h2 className="title">Become the innovators and entrepreneurs of tomorrow.
-                    </h2>
+                    <h2 className="title">Ready to Inspire the Next Generation?</h2>
+                    <p>Whether you’re looking to transform your classroom with Sparkiedo Smart Panels or create an innovative STEM lab with ATL solutions, we are here to help. Let’s build a future of curiosity, innovation, and creativity together!
+                    </p>
                     <a target="_blank" rel="noopener noreferrer" href="" className="axil-btn btn-fill-white">Contact Us</a>
                 </div>
                 </div>

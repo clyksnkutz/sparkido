@@ -5,7 +5,7 @@ import { FaCode, FaCompress, FaGlobe } from 'react-icons/fa';
 
 const AtalLabs = () => {
     return (
-        <div className="section-padding">
+        <div className="section section-padding">
             <div className="container">
                 <div className="section-heading heading-center">
                                 {/* <span className="subtitle">Our Products</span> */}
