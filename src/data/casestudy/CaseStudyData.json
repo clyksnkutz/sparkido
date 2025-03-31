@@ -3,7 +3,7 @@
     {
         "id": 1,
         "title": "Interactive Real-Time Engagement",
-        "thumb": "/images/case1.jpg",
+        "thumb": "/images/smartpanel/interactive1.png",
         "points": [
             { "icon": "✨", "title": "AI-Enabled Panels", "description": "Revolutionize learning with real-time AI-generated content." },
             { "icon": "🤝", "title": "Multi-Touch Capability", "description": "Foster collaborative learning by allowing multiple students to interact with the content at the same time." },
@@ -13,7 +13,7 @@
     {
         "id": 2,
         "title": "Brilliant Clarity and Immersive Sound",
-        "thumb": "/images/case2.jpg",
+        "thumb": "/images/smartpanel/sound.png",
         "points": [
             { "icon": "🖥️", "title": "4K Resolution", "description": "Deliver crystal-clear visuals with an Ultra HD 4K display." },
             { "icon": "👓", "title": "Anti-Glare Technology", "description": "Minimize eye strain with flicker-free technology." },
@@ -23,7 +23,7 @@
     {
         "id": 3,
         "title": "Performance Powerhouse",
-        "thumb": "/images/case3.jpg",
+        "thumb": "/images/smartpanel/performance.png",
         "points": [
             { "icon": "⚡", "title": "Android 14 System", "description": "Experience fast, smooth performance with Android 14." },
             { "icon": "🚀", "title": "Octa-core Processor", "description": "Effortlessly handles multitasking and demanding apps." },
@@ -33,7 +33,7 @@
     {
         "id": 4,
         "title": "Connectivity and Flexibility",
-        "thumb": "/images/case4.jpg",
+        "thumb": "/images/smartpanel/connection.jpg",
         "points": [
             { "icon": "🔌", "title": "Versatile Connectivity", "description": "Effortlessly connect to a variety of devices." },
             { "icon": "📹", "title": "Screen Recording & Sharing", "description": "Capture every lesson in stunning detail." },
