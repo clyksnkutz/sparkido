@@ -41,7 +41,7 @@ const ServiceDetails = () => {
                 <div className="col-lg-12">
                     <div className="section-heading heading-center" style={{ marginTop: '100px' }}>
                         <h3 className="subtitlered" >Welcome to the future of STEM education</h3>
-                        <p>As a supporting partner for the Atal Innovation Mission, we're dedicated to elevating education with our state-of-the-art Atal Tinkering Labs which sparks curiosity through hands-on learning spaces where students develop critical thinking, creativity, and collaboration skills. We equip young minds to solve challenges and become tomorrow's innovators and entrepreneurs.</p>
+                        <p className='fontfix'>As a supporting partner for the Atal Innovation Mission, we're dedicated to elevating education with our state-of-the-art Atal Tinkering Labs which sparks curiosity through hands-on learning spaces where students develop critical thinking, creativity, and collaboration skills. We equip young minds to solve challenges and become tomorrow's innovators and entrepreneurs.</p>
                     </div>
                 </div>
             </div>
